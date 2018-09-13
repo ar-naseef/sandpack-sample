@@ -1,0 +1,17 @@
+{
+  "name": "sandpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "browserify index.js -o bundle.js"
+  },
+  "author": "nsf",
+  "license": "ISC",
+  "dependencies": {
+    "arithmetic": "^1.0.1",
+    "repeat-string": "^1.6.1",
+    "smooshpack": "0.0.49"
+  }
+}
